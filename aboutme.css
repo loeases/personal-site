@@ -1,0 +1,134 @@
+body {
+    /* background-color: #F5F5F5; */
+    font-family: 'Tahoma';
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right:100px;
+    margin-bottom: 80px;  
+    font-size: 14px;
+    font-weight: 400;
+}
+
+body:not(h1) {
+    color: #202020;
+}
+
+.topbar {
+    display: flex;              /* make items inline horizontally */
+    justify-content: space-between; /* ?? */
+    align-items: center;        /* vertically center them */
+    margin-bottom: 40px;      
+}
+
+a h2 {
+    color:#000000;
+    text-decoration: none;
+    font-weight: normal;
+    transition: background-color 0.3s ease;
+    margin-bottom: 0px;
+}
+
+nav {
+    display: flex;
+    gap: 15px; /* spacing between links */
+    justify-content: flex-end;
+    text-align: right;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMe, .workExperience {
+    text-align: center;
+}
+
+footer {
+    margin-top: auto;
+    min-height: 50px;
+    display: flex;              
+    margin-bottom: 150px; 
+    display:inline-block; 
+    text-align: right;      
+    }
+
+#contactMeSection {
+    font-size: 30px;
+}
+
+#contactMe {
+    font-size: 14px;
+}
+
+a {
+    color: #696969;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#343434;
+}
+
+a:hover {
+    color:#343434;
+}
+
+.contactMeSection:hover {
+    color:#343434;
+}
+
+/* about section */
+
+#firstAboutMe {
+    font-size: 1.1rem;
+    font-weight: 575;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+#flowerDivider {
+    margin-bottom: 40px;
+}
+
+.aboutMe div:not(#firstAboutMe):not(#flowerDivider) {
+    margin-bottom: 40px;    
+}
+
+/*work section*/
+
+.workExperience {
+    margin-top: 60px;
+}
+
+.job {
+    margin-bottom: 30px;
+}
+
+.companyName {
+    font-size: 1.15rem; 
+    font-weight: 500; 
+    color: #202020;
+}
+
+.jobTitle{
+    font-style: italic;
+    font-size: 0.8rem;
+    color: #696969; 
+    margin-top: 2px;
+}
+
+.jobDates {
+    font-weight: normal;
+    color: #999999;
+    margin-left: 10px;
+}
+
+.companyName:hover {
+    color:#696969;
+    transition: background-color 0.3s ease;
+}
